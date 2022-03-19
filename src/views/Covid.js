@@ -3,9 +3,7 @@ import axios from "axios";
 import moment from "moment";
 const Covid = () => {
   const [dataCovid, setDataCovid] = useState([]);
-
   const today = moment().startOf("day").toISOString(true);
-
   const priorDate = moment()
     .startOf("day")
     .subtract(31, "days")
