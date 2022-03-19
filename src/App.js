@@ -27,6 +27,7 @@ function App() {
       <Nav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h3>Covid data in Vietnam for the last 30 days </h3>
        <Covid />
         {/* <Todo 
         todos={todos}
